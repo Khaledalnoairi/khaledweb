@@ -1,0 +1,144 @@
+.header{
+	font-family: impact;
+	height: 40px;
+	background-color: #013243;
+	padding-top: 10px;
+}
+.header .so{
+	font-size: 20px;
+	margin-right: 10px;
+	
+	color: white;
+}
+.so:hover{
+	color: orange;
+
+}
+.header .ph {
+	
+	color: white;
+	font-size: 20px;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	word-spacing: 3px;
+
+
+}
+#brand{
+	color: orange;
+}
+.navbar-collapse{
+	background-color: white;
+	border: none;
+}
+#navi li a:hover{
+	color: orange;
+	border-bottom: 1px solid orange;
+	padding-bottom: 3px;
+}
+.photo{
+	margin-top: -20px;
+	background-color:#013243;
+	padding-bottom: 20px;
+}
+.service {
+	text-align: center;
+	margin: 30px;
+
+}
+.service h2{
+	font-family:Bradley Hand, cursive;
+	margin-bottom: 50px;
+}
+.service h4{
+	font-family:Bradley Hand, cursive;
+	margin: 10px 0;
+}
+.service a{
+	color: orange;
+	padding: 5px;
+}
+.service a:hover{
+	border: 1px solid white;
+	border-radius: 20px;
+	background-color: #013243;
+	color: white;
+	text-decoration: none;
+}
+
+
+.service img:hover{
+	
+	border: 5px solid  orange;
+}
+.about{
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 50px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/12_0000247.jpg.jpg);
+	background-position: center;
+	background-size: cover;
+	color: white;
+	padding-bottom: 50px;
+
+}
+.about h2{
+	border-bottom: 2px solid white;
+	font-family:Bradley Hand, cursive;
+	padding-bottom: 15px;
+}
+.about p{
+	font-size: 16px;
+	word-spacing: 4px;
+	opacity: 0.70;
+}
+.about p:hover{
+	opacity: 1;
+}
+.loc{
+	margin: 50px 0;
+	text-align: center;
+}
+.loc h2{
+	padding-bottom: 50px;
+	font-family:Bradley Hand, cursive;
+}
+.loc p{
+	font-size: 20px;
+	font-family:Bradley Hand, cursive;
+
+}
+.footer{
+	margin-top: 50px;
+	background-color:#013243;
+	padding-top: 30px;
+	
+}
+.footer h4{
+	font-family:Bradley Hand, cursive;
+	color: white;
+}
+.footer p{
+	color: orange;
+	padding: 5px 0;
+}
+.footer a{
+	color: orange;
+	font-size: 30px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid orange;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+
+}
+.footer .btn{
+	margin-top: 5px;
+}
+.footer a:hover{
+	color: white;
+}
