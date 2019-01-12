@@ -1,0 +1,119 @@
+.navbar{
+	margin:0;
+	padding: 0;
+
+
+}
+#navo a:hover{
+	border-bottom: 1px solid brown;
+	
+
+}
+#logo{
+	margin-top: -18px;
+	margin-left: -120px;
+}
+.header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Coffeehouse.jpg.jpg);
+	width: 100%;
+	height: 98vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -30px;
+	
+}
+.header h2{
+	font-family: Times New Roman, Arial;
+	font-size: 40px;
+	color: white;
+	margin-top: 155px;
+	text-transform: uppercase;
+	animation: change .8s 15 linear;
+
+}
+@keyframes change{
+	from{color: gold;}
+	to{color: white;}
+}
+.header p{
+	font-family: Courier New;
+	font-size: 23px;
+	color: snow;
+}
+#btn{
+	position: absolute;
+	color: white;
+	background-color: inherit;
+	margin-top: 200px;
+	margin-left: 47%;
+	
+
+}
+.coffee{
+	text-align: center;
+	margin-top: 30px;
+	
+}
+.coffee h2{
+	font-family: algerian;
+	margin-bottom: 40px;
+	color: #800000		;
+}
+.coffee h4{
+	text-transform: uppercase;
+	color: #800000	;
+}
+.coffee p{
+	color: black;
+}
+.why{
+	margin-top: 50px;
+	padding: 20px 0 ;
+	text-align: center;
+	background-image: url(CoffeeHeart.jpg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+.contact {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 50px;
+}
+.contact h2{
+	font-family: algerian;
+	margin-bottom: 30px;
+}
+.contact .btn{
+	margin-top: 10px;
+}
+.footer{
+	margin-top: 50px;
+	padding-top: 5px;
+	background-color: black;
+	color: gray;
+	padding-bottom: 10px;
+}
+.footer a{
+	text-decoration: none;
+	color: gray;
+}
+.footer .soc{
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	border: 1px solid gray;
+	border-radius: 40px;
+	padding: 5px;
+	margin: 5px;
+}
+.footer .soc:hover{
+	color: white;
+}
+#press{
+	display: none;
+
+}
